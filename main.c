@@ -375,8 +375,8 @@ void deletar(int *qtd, struct funcionario *funcionarios)
             printf("Departamento: %s\n\n", number_to_str_departamento(funcionarios[i].departamento, 0));
 
             int confirmacao;
-            printf("\n\ntem certeza que deseja excluir o funcionário ?");
-            printf("1. Sim/\n2.Não");
+            printf("\n\ntem certeza que deseja excluir o funcionário ?\n");
+            printf("1. Sim/\n2.Não\n");
             printf("Digite a opção desejada: ");
             scanf("%d", &confirmacao);
             if (confirmacao == 1)
