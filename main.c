@@ -78,7 +78,7 @@ Departamentos str_to_departamento(char *dep_str)
     else if (strcmp(dep_str, "ASSISTENCIA_SOCIAL") == 0)
         return ASSISTENCIA_SOCIAL;
     else
-        return SERVICOS_GERAIS; // Retorno padrão (ou um valor que faça sentido para casos inválidos)
+        return SERVICOS_GERAIS;
 }
 void find_all(FILE *pont_arq, struct funcionario *funcionarios, int *qtd)
 {
